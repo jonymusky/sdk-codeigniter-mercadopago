@@ -3,6 +3,7 @@ MercadoPago SDK module for CodeIgniter
 Usage:
 1. Copy the application folder in your codeigniter application folder.
 2. Modify the application/config/mercadopago.php values with the MercadoPago credentials.
+
 Get your CLIENT_ID and CLIENT_SECRET in the following address:
 
     Argentina: https://www.mercadopago.com/mla/herramientas/aplicaciones
