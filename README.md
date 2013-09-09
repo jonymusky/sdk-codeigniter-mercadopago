@@ -1,4 +1,4 @@
-MercadoPago SDK module for CodeIgniter
+# MercadoPago SDK module for CodeIgniter
 
 Usage:
 1. Copy the application folder in your codeigniter application folder.
@@ -12,13 +12,17 @@ Get your CLIENT_ID and CLIENT_SECRET in the following address:
     Venezuela: https://www.mercadopago.com/mlv/herramientas/aplicaciones
 
 3. In your construct controller just add:
+
         $CI = &get_instance();
         $CI->config->load("mercadopago", TRUE);
         $config = $CI->config->item('mercadopago');
         $this->load->library('Mercadopago', $config);   
 
 And thats it.
+
 You can access to the SDK methods like 
-$accessToken = $this->mercadopago->get_access_token();
+
+
+    $accessToken = $this->mercadopago->get_access_token();
 
 
